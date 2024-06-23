@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Чеклист</title>
+</head>
+<body>
+    <div class="checklist-container">
+        <div class="checklist-counter">
+            <span class="checklist-counter_number">0/7</span>
+            <svg id="checklist-counter_progress" width="60" height="60" viewBox="0 0 60 60">
+                <circle cx="30" cy="30" r="29" stroke="#e6e6e6" stroke-width="1" fill="none" />
+                <circle id="checklist-counter_circle" cx="30" cy="30" r="29" stroke="#3498db" stroke-width="1" fill="none"
+                        stroke-dasharray="565.48" stroke-dashoffset="565.48" />
+            </svg>            
+        </div>
+        <div class="checklist-info">
+            <span class="checklist-info_bage">Чеклист</span>
+            <h4 class="checklist-info_done">Выполнено: 0 из 7 действий</h4>
+            <p class="checklist-info_next">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+        </div>
+        <button class="checklist-button">Открыть чеклист</button>
+    </div>
+</body>
+</html>

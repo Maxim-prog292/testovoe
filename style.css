@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-ExtraLight;
+    src: url(./fonts/Inter-ExtraLight.ttf);
+}
+.checklist-container {
+    display: flex;
+    width: 743px;
+    height: 91px;
+    background: #3579F5;
+    margin: 100px auto;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.checklist-counter {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-left: 7px;
+    margin-right: 16px;
+}
+.checklist-counter_number {
+    position: absolute;
+    color:#fff;
+    font-family: Inter-Regular;
+    font-size: 20px;
+    top: 15px;
+    left: 15px;
+}
+#progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #progress-bar {
+    transform: rotate(-90deg);
+  }
+  
+  #progress-circle {
+    transition: stroke-dashoffset 0.5s;
+  }
+.checklist-info {
+    display: flex;
+    flex-direction: column;
+}
+.checklist-info_bage {
+    width: 76px;
+    height: 18px;
+    background: #2364DB;
+    border-radius: 40px;
+    color:#fff;
+    font-family: Inter-ExtraLight;
+    font-size: 12px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+.checklist-info_done {
+    color:#fff;
+    font-family: Inter-Regular;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.checklist-info_next {
+    color:#fff;
+    font-family: Inter-ExtraLight;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.checklist-button {
+    width: 170px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    color:#3579F5;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-left: 80px;
+}
